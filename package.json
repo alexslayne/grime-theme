@@ -1,0 +1,27 @@
+{
+	"name": "grime",
+	"displayName": "Grime Theme",
+	"description": "A fork of the Slime theme by smlombardi",
+	"version": "1.0",
+	"publisher": "Alex Layne",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/smlombardi/theme-slime.git"
+	},
+	"engines": {
+		"vscode": "*"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Grime",
+				"uiTheme": "vs-dark",
+				"path": "./themes/grime-color-theme.json"
+			}
+		]
+	}
+}
